@@ -1,2 +1,2 @@
 #!/bin/basih
-gcc -o cisfun $CFILE
+gcc $CFILE -o cisfun
