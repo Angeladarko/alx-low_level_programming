@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - print negative or positive
- *
- * Return: print negative or positive
+ * main - print the alphabet in lowercase
+ * followed by a new line, except q and e
+ * Return: print the alphabet in lowercase
  */
 int main(void)
 {
-	char alp;
-	for (alp = 'a'; alp <= 'z'; alp++)
+	char la;
+
+	for (la = 'a'; la <= 'z'; la++)
 	{
-		putchar(alp);
-		if (alp == 'c' || alp == 'y' || alp == 'o')
-			continue;
-		putchar(alp);
+		if (la != 'e' && la != 'q')
+			putchar (la);
 	}
 
 	putchar('\n');
