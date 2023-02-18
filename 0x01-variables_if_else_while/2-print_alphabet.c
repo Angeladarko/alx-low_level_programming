@@ -10,7 +10,7 @@ int main(void)
 	char alp;
 
 	for (alp = 'a'; alp <= 'z'; alp++)
-		putcha(alp);
+		putchar(alp);
 
 	putchar('\n');
 
