@@ -1,9 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - prints all strings from 0 to 9
- * Return: prints all strings from 0 to 9
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int a;
@@ -13,7 +14,6 @@ int main(void)
 		putchar(a);
 	}
 
-		putchar("\n");
-
+		putchar('\n');
 		return (0);
 }
