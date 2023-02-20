@@ -34,8 +34,8 @@ int main(void)
 		}
 		c2++;
 	}
-	c++
+	c++;
 
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
